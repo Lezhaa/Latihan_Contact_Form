@@ -3,6 +3,7 @@
 
 <?php
 
+//Memasukkan data ke form
 $name = $_POST["name"];
 $email = $_POST["email"];
 $message = $_POST["message"];
