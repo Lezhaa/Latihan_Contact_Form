@@ -8,6 +8,8 @@ $name = $_POST["name"];
 $email = $_POST["email"];
 $message = $_POST["message"];
 if(empty($name) || empty($email) || empty($message)) {
+
+    //Menampilkan pesan bahwa berhasil mengisi form 
     echo "All fields need to be completed!";
     } else {
         echo "Thank you for submitting the form!";
